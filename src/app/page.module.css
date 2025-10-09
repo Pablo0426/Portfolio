@@ -1,0 +1,32 @@
+/* Styles for src/app/page.jsx */
+.container {
+  @apply max-w-5xl mx-auto px-4 py-8 gap-8;
+}
+
+.mainGrid {
+  /* Keep the md grid columns in JSX because Tailwind cannot @apply arbitrary values */
+}
+
+.aside {
+  @apply border rounded-md p-4 text-center self-start;
+}
+
+.profileImage {
+  @apply w-full rounded;
+}
+
+.socialLinks {
+  @apply flex justify-center gap-4 mt-3;
+}
+
+.heading {
+  @apply text-3xl font-semibold mb-4;
+}
+
+.lead {
+  @apply mb-4 text-slate-700 dark:text-slate-200;
+}
+
+.bodyText {
+  @apply text-slate-700 dark:text-slate-200;
+}
