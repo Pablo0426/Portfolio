@@ -11,11 +11,11 @@ export default function About() {
       <main className={`${styles.container} md:grid md:grid-cols-[1fr_320px] md:items-start`}>
         <section className="order-1 md:order-1">
           <h1 className={styles.heading}>
-            Hi, I'm Pablo Jr. I'm studeying at Ensign College where I'm learning how to code
+            Hi, I&apos;m Pablo Jr. I&apos;m studeying at Ensign College where I&apos;m learning how to code
           </h1>
           <p className={`${styles.lead} ${styles.paragraph}`}>
-            I'm a developer who enjoys creating clean, accessible user experiences. This portfolio showcases projects,
-            the tools I use, and ways to get in touch.
+            I&apos;m a developer who enjoys creating clean, accessible user experiences. This portfolio showcases
+            projects, the tools I use, and ways to get in touch.
           </p>
           <p className={`${styles.lead} ${styles.paragraph}`}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et

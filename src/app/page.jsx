@@ -13,7 +13,7 @@ export default function Home() {
         <section className={styles.intro}>
           <img src="/profilePic.jpg" alt="Small profile" className={styles.introImage} />
           <div className="flex flex-col">
-            <h1 className={styles.introHeading}>Hi, I'm Pablo Jr.</h1>
+            <h1 className={styles.introHeading}>Hi, I&apos;m Pablo Jr.</h1>
             <p className={styles.introParagraph}>Explore my projects, tools, and contact details.</p>
             <div className={styles.introSocialRow}>
               <a
