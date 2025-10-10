@@ -89,7 +89,7 @@ export default function Home() {
         {/* Second separate section: two-column row */}
         <section>
           <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-6">
-            {/* Left: 3 articles stacked */}
+            {/* Left: 3 articles stacked XD */}
             <div className="flex flex-col gap-6">
               <article className="flex flex-col">
                 <time className="text-sm text-slate-500 dark:text-slate-400 mb-2">Oct 1, 2025</time>
