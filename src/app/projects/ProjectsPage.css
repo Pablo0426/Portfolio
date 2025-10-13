@@ -1,0 +1,70 @@
+/* Base styles */
+.projects-page {
+  padding: 48px;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.projects-page h1 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.projects-page__intro {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.projects-page__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.project-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 24px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.project-card__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.project-card__title {
+  font-size: 18px;
+  margin: 0 0 8px;
+}
+
+.project-card__description {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.project-card__link {
+  font-size: 14px;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.project-card__link:hover {
+  text-decoration: underline;
+}
